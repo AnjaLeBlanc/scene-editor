@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+	targetNamespace="http://grace.rcs.manchester.ac.uk/edance/"
+	attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:edance="http://grace.rcs.manchester.ac.uk/edance/">
+
+  <xs:import namespace="http://purl.org/dc/elements/1.1/" 
+           schemaLocation="http://www.ukoln.ac.uk/metadata/dcmi/dcxml/xmls/dc.xsd">
+        <xs:annotation>
+        	<xs:documentation>
+        		eDance meta data; dc not complete for dance recorded
+        		videos
+        	</xs:documentation>
+        </xs:annotation>
+  </xs:import>
+  	
+  <xs:element name="date.annotated" type="xs:date">
+  	<xs:annotation>
+  		<xs:documentation>Date of the annotation</xs:documentation>
+  	</xs:annotation></xs:element>
+
+  <xs:element name="description.scenes" type="xs:integer">
+  	<xs:annotation>
+  		<xs:documentation>
+  			number of scenes in the performance
+  		</xs:documentation>
+  	</xs:annotation></xs:element>
+
+    <xs:element name="description.sceneabs" type="xs:string">
+    	<xs:annotation>
+    		<xs:documentation>description of scnenes</xs:documentation>
+    	</xs:annotation></xs:element>
+
+    <xs:element name="contributor.choreographer" type="xs:NCName">
+    	<xs:annotation>
+    		<xs:documentation>
+    			Name of the choreographer
+    		</xs:documentation>
+    	</xs:annotation></xs:element>
+
+    <xs:element name="contributor.performer" type="xs:NCName">
+    	<xs:annotation>
+    		<xs:documentation>names of the performers</xs:documentation>
+    	</xs:annotation></xs:element>
+
+    <xs:element name="description.acts" type="xs:integer">
+    	<xs:annotation>
+    		<xs:documentation>description of acts</xs:documentation>
+    	</xs:annotation></xs:element>
+
+    <xs:element name="date.created" type="xs:date">
+    	<xs:annotation>
+    		<xs:documentation>
+    			date the piece was created
+    		</xs:documentation>
+    	</xs:annotation></xs:element>
+	</xs:schema>

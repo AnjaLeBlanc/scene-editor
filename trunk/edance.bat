@@ -1,0 +1,1 @@
+java -Djava.library.path=libwindows -Dsun.java2d.noddraw=true -Xmx1024M -Xss2048K -jar edance.jar 233.33.100.11/57006/127 233.33.100.11/57004/127
