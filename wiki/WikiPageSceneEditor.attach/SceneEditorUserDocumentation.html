@@ -1,0 +1,859 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="SceneEditorUserDocumentation_files/filelist.xml">
+<link rel=Edit-Time-Data href="SceneEditorUserDocumentation_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Scene Editor User Documentation</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Anja Le Blanc</o:Author>
+  <o:LastAuthor>Anja Le Blanc</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1111</o:TotalTime>
+  <o:Created>2009-10-16T12:47:00Z</o:Created>
+  <o:LastSaved>2009-10-16T12:47:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1326</o:Words>
+  <o:Characters>7559</o:Characters>
+  <o:Company>University of Manchester</o:Company>
+  <o:Lines>62</o:Lines>
+  <o:Paragraphs>17</o:Paragraphs>
+  <o:CharactersWithSpaces>8868</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-update:auto;
+	mso-style-parent:"";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	tab-stops:81.0pt 153.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	tab-stops:81.0pt 153.0pt;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	tab-stops:81.0pt 153.0pt;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+code
+	{font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+p.corsive, li.corsive, div.corsive
+	{mso-style-name:corsive;
+	mso-style-link:"corsive Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	tab-stops:81.0pt 153.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+span.corsiveChar
+	{mso-style-name:"corsive Char";
+	mso-style-locked:yes;
+	mso-style-link:corsive;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ansi-language:EN-GB;
+	mso-fareast-language:EN-GB;
+	mso-bidi-language:AR-SA;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:-132;
+	mso-list-type:simple;
+	mso-list-template-ids:292029144;}
+@list l0:level1
+	{mso-level-tab-stop:74.6pt;
+	mso-level-number-position:left;
+	margin-left:74.6pt;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:-131;
+	mso-list-type:simple;
+	mso-list-template-ids:-856638478;}
+@list l1:level1
+	{mso-level-tab-stop:60.45pt;
+	mso-level-number-position:left;
+	margin-left:60.45pt;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:-130;
+	mso-list-type:simple;
+	mso-list-template-ids:157050862;}
+@list l2:level1
+	{mso-level-tab-stop:46.3pt;
+	mso-level-number-position:left;
+	margin-left:46.3pt;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:-129;
+	mso-list-type:simple;
+	mso-list-template-ids:-610794788;}
+@list l3:level1
+	{mso-level-tab-stop:32.15pt;
+	mso-level-number-position:left;
+	margin-left:32.15pt;
+	text-indent:-18.0pt;}
+@list l4
+	{mso-list-id:-128;
+	mso-list-type:simple;
+	mso-list-template-ids:1380216576;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:74.6pt;
+	mso-level-number-position:left;
+	margin-left:74.6pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:-127;
+	mso-list-type:simple;
+	mso-list-template-ids:359942030;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:60.45pt;
+	mso-level-number-position:left;
+	margin-left:60.45pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:-126;
+	mso-list-type:simple;
+	mso-list-template-ids:-1840359380;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:46.3pt;
+	mso-level-number-position:left;
+	margin-left:46.3pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:-125;
+	mso-list-type:simple;
+	mso-list-template-ids:1109706174;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:32.15pt;
+	mso-level-number-position:left;
+	margin-left:32.15pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:-120;
+	mso-list-type:simple;
+	mso-list-template-ids:-362796422;}
+@list l8:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l9
+	{mso-list-id:-119;
+	mso-list-type:simple;
+	mso-list-template-ids:-357028804;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10
+	{mso-list-id:750858981;
+	mso-list-template-ids:-184512322;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	mso-ascii-font-family:Symbol;
+	mso-hansi-font-family:Symbol;}
+@list l10:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l10:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l10:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:162.0pt;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:198.0pt;
+	mso-level-number-position:left;
+	margin-left:198.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l10:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:234.0pt;
+	mso-level-number-position:left;
+	margin-left:234.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l10:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:270.0pt;
+	mso-level-number-position:left;
+	margin-left:270.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l10:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:306.0pt;
+	mso-level-number-position:left;
+	margin-left:306.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l10:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:342.0pt;
+	mso-level-number-position:left;
+	margin-left:342.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l11
+	{mso-list-id:796724689;
+	mso-list-template-ids:-2035091806;}
+@list l11:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l11:level2
+	{mso-level-start-at:9;
+	mso-level-text:%1-%2;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-72.0pt;}
+@list l11:level3
+	{mso-level-text:"%1-%2\.%3";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l11:level4
+	{mso-level-text:"%1-%2\.%3\.%4";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l11:level5
+	{mso-level-text:"%1-%2\.%3\.%4\.%5";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l11:level6
+	{mso-level-text:"%1-%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l11:level7
+	{mso-level-text:"%1-%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l11:level8
+	{mso-level-text:"%1-%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l11:level9
+	{mso-level-text:"%1-%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-90.0pt;}
+@list l12
+	{mso-list-id:1698463422;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-184512322 -273242304 134807555 134807557 134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050">
+  <o:colormenu v:ext="edit" strokecolor="#669"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-GB link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<h1><span class=SpellE>eDance</span> Scene Editor User Documentation</h1>
+
+<p class=MsoNormal>The <span class=SpellE>eDance</span> Scene Editor is a
+software tool which allows users to design a series of scenes using media
+inputs such as cameras (fire wire, or USB input), pervious recorded material, transmitted
+streams from around the world, and sound. The display to the audience will
+occur on a second attached screen or via an attached projector. It provides
+options for life manipulations, like moving the position of videos, or changing
+the transparency of them.</p>
+
+<p class=MsoNormal>The <span class=SpellE>eDance</span> Scene Editor is written
+in Java and provides libraries for Windows, Linux, and Mac but is so far tested
+only on Windows.</p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:414.75pt;
+ height:147pt'>
+ <v:imagedata src="SceneEditorUserDocumentation_files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=196
+src="SceneEditorUserDocumentation_files/image002.jpg" v:shapes="_x0000_i1025"><![endif]></p>
+
+<h2>State of the project</h2>
+
+<p class=MsoNormal>Main functionalities are implemented and tested. Secondary
+functionalities are designed (hooks provided) but not yet implemented. Major
+effort has to be put into net interactivity, exchange of scene layouts,
+following a life show… </p>
+
+<h2>Start up</h2>
+
+<p class=MsoNormal><code><span style='font-size:10.0pt'>java -<span
+class=SpellE>Djava.library.path</span>=[path to operating system libraries (<span
+class=SpellE>libwindows/libmac/liblinux</span>)] -Dsun.java2d.noddraw=true
+-Xmx1024M -Xss2048K -jar <span class=SpellE>edance.jar</span> [<span
+class=SpellE>ip/port/ttl</span> of video] [<span class=SpellE>ip/port/ttl</span>
+of audio]</span></code></p>
+
+<p class=MsoNormal>It is recommended to use multicast addresses for
+transmitting and receiving streams. See documentation about the Access Grid for
+details about multicast. When the tool is started using the address of existing
+Access Grid rooms, streams transmitted via the Access Grid (assuming they are
+transmitted in a suitable codec) can be used in the performance.</p>
+
+<p class=MsoNormal><code><span style='font-size:10.0pt'>-Dsun.java2d.noddraw=true
+</span></code>is necessary to allow transparency.<span style='font-size:10.0pt;
+font-family:"Courier New"'><o:p></o:p></span></p>
+
+<p class=MsoNormal>The increase in memory is recommended since working with
+video in real-time is memory intensive.</p>
+
+<b><i><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-GB;mso-fareast-language:EN-GB;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span></i></b>
+
+<h2>General Design</h2>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:group id="_x0000_s1048" style='position:absolute;
+ left:0;text-align:left;margin-left:0;margin-top:7.9pt;width:423.75pt;height:371.95pt;
+ z-index:-3;mso-position-horizontal:left' coordorigin="1620,8401" coordsize="8475,7439"
+ wrapcoords="382 0 382 18726 535 18813 1491 18813 1376 19510 115 19945 -38 20032 -38 21556 15177 21556 15254 20032 12539 19510 12884 18813 21600 18769 21600 0 382 0">
+ <v:shape id="_x0000_s1047" type="#_x0000_t75" style='position:absolute;left:1800;
+  top:8401;width:8295;height:6465'>
+  <v:imagedata src="SceneEditorUserDocumentation_files/image003.png" o:title=""/>
+ </v:shape><v:group id="_x0000_s1046" style='position:absolute;left:1620;top:8630;
+  width:7200;height:7210' coordorigin="1620,8630" coordsize="7200,7210">
+  <v:line id="_x0000_s1026" style='position:absolute;flip:x' from="6300,11330"
+   to="8820,15374" strokecolor="#669" strokeweight="4.5pt">
+   <v:stroke startarrow="block"/>
+  </v:line><v:line id="_x0000_s1033" style='position:absolute;flip:x' from="4140,11330"
+   to="4500,15374" strokecolor="#669" strokeweight="4.5pt">
+   <v:stroke startarrow="block"/>
+  </v:line><v:line id="_x0000_s1034" style='position:absolute;flip:y' from="2160,8630"
+   to="3600,15470" strokecolor="#669" strokeweight="4.5pt">
+   <v:stroke endarrow="block"/>
+  </v:line><v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202"
+   path="m,l,21600r21600,l21600,xe">
+   <v:stroke joinstyle="miter"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+  </v:shapetype><v:shape id="_x0000_s1042" type="#_x0000_t202" style='position:absolute;
+   left:1620;top:15300;width:1080;height:540' stroked="f">
+   <v:textbox style='mso-next-textbox:#_x0000_s1042'>
+    <![if !mso]>
+    <table cellpadding=0 cellspacing=0 width="100%">
+     <tr>
+      <td><![endif]>
+      <div>
+      <p class=MsoNormal>Toolbar</p>
+      </div>
+      <![if !mso]></td>
+     </tr>
+    </table>
+    <![endif]></v:textbox>
+  </v:shape><v:shape id="_x0000_s1043" type="#_x0000_t202" style='position:absolute;
+   left:3600;top:15300;width:1620;height:540' stroked="f">
+   <v:textbox style='mso-next-textbox:#_x0000_s1043'>
+    <![if !mso]>
+    <table cellpadding=0 cellspacing=0 width="100%">
+     <tr>
+      <td><![endif]>
+      <div>
+      <p class=MsoNormal>Scene Design</p>
+      </div>
+      <![if !mso]></td>
+     </tr>
+    </table>
+    <![endif]></v:textbox>
+  </v:shape><v:shape id="_x0000_s1044" type="#_x0000_t202" style='position:absolute;
+   left:5580;top:15300;width:1980;height:540' stroked="f">
+   <v:textbox style='mso-next-textbox:#_x0000_s1044'>
+    <![if !mso]>
+    <table cellpadding=0 cellspacing=0 width="100%">
+     <tr>
+      <td><![endif]>
+      <div>
+      <p class=MsoNormal>Scenes Overview</p>
+      </div>
+      <![if !mso]></td>
+     </tr>
+    </table>
+    <![endif]></v:textbox>
+  </v:shape></v:group><w:wrap type="square"/>
+</v:group><![endif]--><![if !vml]><img width=567 height=497
+src="SceneEditorUserDocumentation_files/image004.gif" align=left v:shapes="_x0000_s1048 _x0000_s1047 _x0000_s1046 _x0000_s1026 _x0000_s1033 _x0000_s1034 _x0000_s1042 _x0000_s1043 _x0000_s1044"><![endif]></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>The Scene Editor window is divided into four parts, the
+Toolbar for selecting functions, the Scene Design area in which the user can
+place their media objects, the Scenes Overview area in which the user has an
+overview about available scenes and can change the order in which they occur,
+and a sill empty space in which at a future time the timing of a show can be
+edited (using the idea of a video cutting area, with different lines for different
+locations and time bar).</p>
+
+<p class=MsoNormal>In running mode the current scene is also displayed on the
+second <span class=SpellE>screne</span>/projector. All interactions within the
+Scene Design area are then also applied to the live show.</p>
+
+<h2>Toolbar</h2>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shape id="_x0000_s1049" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:0;margin-top:2.8pt;
+ width:414.75pt;height:15pt;z-index:-2;mso-position-horizontal:left'
+ wrapcoords="-39 0 -39 20520 21600 20520 21600 0 -39 0">
+ <v:imagedata src="SceneEditorUserDocumentation_files/image005.png" o:title=""/>
+ <w:wrap type="square"/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=20
+src="SceneEditorUserDocumentation_files/image006.jpg" align=left hspace=12
+v:shapes="_x0000_s1049"><![endif]></p>
+
+<p class=MsoNormal>Buttons from left to right:</p>
+
+<p class=MsoNormal><span class=corsiveChar>New Project</span> (not working)</p>
+
+<p class=MsoNormal><span class=corsiveChar>Open Project</span> – you will be
+asked whether to save the current project, afterwards an open dialog will open
+and you can select a file with the ending *.<span class=SpellE>ecf</span>
+(e-dance <span class=SpellE>config</span> file) from your file system. When a
+project is loaded it is tried to match any available stream to what was saved
+in the project. Streams might have changed names and a mapping is not possible
+or wrong. In this case some re-attaching of streams by hand is necessary. </p>
+
+<p class=MsoNormal><span class=corsiveChar>Save Project</span> – a save dialog
+will be opened. Select a place and name for your project file. All scenes, all
+media objects within each scene, their position, transparency, and stream
+source is saved. The *.<span class=SpellE>ecf</span> format is a XML based
+format.</p>
+
+<p class=MsoNormal><span class=corsiveChar>Upload Project</span> <span
+class=corsiveChar>files to <span class=SpellE>Memetic</span> server or <span
+class=SpellE>DSpace</span> repository</span> – an open dialog will open, you
+should select the place in which the recording of media took place (you should
+see a directory with the name ‘recording’). Afterwards a dialog is displayed
+where you can change, or create metadata to your recording. After you saved
+this data, an upload recording dialog is opened where you are required to input
+the URL to the repository, a username and a password for this server. The URL
+determents whether the server is a <span class=SpellE>Memetic</span> or a <span
+class=SpellE>DSpace</span> repository. Press Export to start the upload. Please
+not that the upload can take very long depending on the size of the data. You
+can continue to work but should not shutdown the program. (In the Task Manager
+the transfer rate will drop when transfer is finished – sorry no other
+indication yet.)</p>
+
+<p class=MsoNormal><span class=corsiveChar>New Scene</span> – adds a new scene
+to the project the new scene will be inserted after the current scene.</p>
+
+<p class=MsoNormal><span class=corsiveChar>Delete Scene</span> – deletes the
+current scene.</p>
+
+<p class=MsoNormal><span class=corsiveChar>Undo Change</span> (not working)</p>
+
+<p class=MsoNormal><span class=corsiveChar>Redo Change</span> (not working)</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=corsiveChar>Pre-recorded Local Video</span> –
+selects a pre-recorded video object as the next to be inserted into a scene.</p>
+
+<p class=MsoNormal><span class=corsiveChar>Live Video</span> – selects a live
+video object as the next to be inserted into a scene.</p>
+
+<p class=MsoNormal><span class=corsiveChar>Replay Live Video Time shifted</span>
+(not working)</p>
+
+<p class=MsoNormal><span class=corsiveChar>Picture</span> (not working)</p>
+
+<p class=MsoNormal><span class=corsiveChar>Live Audio</span> – selects a live
+audio object as the next to be inserted into a scene.</p>
+
+<p class=MsoNormal><span class=corsiveChar>Pre-recorded Audio</span> – selects
+a pre-recorded audio object as the next to be inserted into a scene. This can
+be either a stream recorded with this tool, or simple wave file
+(Attention:<span style='mso-spacerun:yes'>  </span>only very few <span
+class=SpellE>codecs</span> work so far and don’t infringe on copy write law by
+streaming material).</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=corsiveChar>Mask</span> (not working)</p>
+
+<p class=MsoNormal><span class=corsiveChar>Rectangular Mask</span> (not
+working)</p>
+
+<p class=MsoNormal><span class=corsiveChar>Circular Mask</span> (not working)</p>
+
+<p class=MsoNormal><span class=corsiveChar>Freeform Mask</span> (not working)</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=corsiveChar>Screen Aspect Ratio</span> – change
+between 3:4 to 16:9 aspect ratio depending on the projector used.</p>
+
+<p class=MsoNormal><span class=corsiveChar>Run Scene</span> – start displaying
+scenes on a second display (projector). Automatically the ‘other’ screen is
+selected. Icon will change to ‘Stop Running the Scene’</p>
+
+<p class=MsoNormal><span class=corsiveChar>Run Scene Timed</span> (not working)</p>
+
+<p class=MsoNormal><span class=corsiveChar>Record</span> – save all streams
+into working directory. If there are already recordings in this directory a new
+‘<span class=SpellE>recordingX</span>’ directory will be created. Icon will
+change to ‘Stop Recording’</p>
+
+<h2>Scene Design</h2>
+
+<p class=MsoNormal>In this area a scene gets created. Media objects are created
+by clicking on one of the icons (camera, tape, and microphone) and than placed
+on the design area by clicking with the left mouse button on the spot (where
+the top left corner is going to be). Objects can be selected by (left) clicking
+on them (use Shift key for selecting multiple objects), or selecting an area in
+which the object is part. To select all objects of a scene press <span
+class=SpellE>Ctrl+a</span>. Objects can be resized by selecting them and either
+pressing a number key, or pulling on a red corner of an object. Since audio
+objects are not visible during a show, they are not resizable. Selected objects
+are movable by dragging. </p>
+
+<p class=MsoNormal>You have to attach a media stream to make the object
+sensible.</p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shape id="_x0000_s1050" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:0;margin-top:4.2pt;
+ width:94.5pt;height:116.25pt;z-index:-1;mso-position-horizontal:left'
+ wrapcoords="-171 0 -171 21461 21600 21461 21600 0 -171 0">
+ <v:imagedata src="SceneEditorUserDocumentation_files/image007.png" o:title=""/>
+ <w:wrap type="square"/>
+</v:shape><![endif]--><![if !vml]><img width=126 height=155
+src="SceneEditorUserDocumentation_files/image008.jpg" align=left hspace=12
+v:shapes="_x0000_s1050"><![endif]>On a right click on a selected object a menu
+is shown (see image). There you can select functions to change the order of
+windows to bring them in front or behind others and also a menu option to
+attach a media. Depending on what object it is you get a selection of available
+audio devices (remote and local), video devices (remote or local). Please not
+that the name of remote sources can change during the lifetime. Local sources
+are called after the name of the device. If several devices have the same name
+they get an additional number. If a local camera gets physically removed and
+reconnected it is necessary to select the menu point ‘Remove Camera’ to remove
+the dead stream from the object before reattaching the media.</p>
+
+<p class=MsoNormal>In the same menu you can set the transparency level of
+videos. A window with a slider bar will appear. You can set any value between
+completely opaque to completely transparent. </p>
+
+<h2>Scenes Overview</h2>
+
+<p class=MsoNormal>Here you can see all the scenes in the current project with
+an indication where the scene comes from (currently only one location). You can
+select the current scene by left clicking on a scene and you can change the
+order of scenes by drag and dropping them. On a right click on a scene you can
+select to change its name. A dialog box is displayed there you can input a
+text. The current scene is shown with a darker background.</p>
+
+<h2>Key Short Cuts</h2>
+
+<p class=MsoNormal>Ctrl + c <span style='mso-tab-count:1'>              </span>copy
+the selected objects</p>
+
+<p class=MsoNormal>Ctrl + v<span style='mso-tab-count:1'>               </span>past
+the copied objects in current scene</p>
+
+<p class=MsoNormal>Ctrl + t<span style='mso-tab-count:1'>               </span>move
+selected objects to top </p>
+
+<p class=MsoNormal>Ctrl + b<span style='mso-tab-count:1'>               </span>move
+selected objects to bottom</p>
+
+<p class=MsoNormal>Ctrl + u<span style='mso-tab-count:1'>               </span>move
+selected objects one up</p>
+
+<p class=MsoNormal>Ctrl + p <span style='mso-tab-count:1'>              </span>move
+selected objects one down</p>
+
+<p class=MsoNormal>d/Delete<span style='mso-tab-count:1'>             </span>delete
+selected objects</p>
+
+<p class=MsoNormal>Arrow keys <span style='mso-tab-count:1'>       </span>move
+selected objects accordingly</p>
+
+<p class=MsoNormal>Ctrl + a<span style='mso-tab-count:1'>               </span>select
+all objects in scene</p>
+
+<p class=MsoNormal>1-9<span style='mso-tab-count:1'>                      </span>change
+size of selected objects</p>
+
+<p class=MsoNormal>s/S<span style='mso-tab-count:1'>                      </span>change
+size of selected objects to a small sized window</p>
+
+<p class=MsoNormal>m/M<span style='mso-tab-count:1'>                    </span>change
+size of selected objects to a medium sized window</p>
+
+<p class=MsoNormal>l/L<span style='mso-tab-count:1'>                       </span>change
+size of selected objects to a large sized window</p>
+
+<h2>Used Libraries and their Licenses</h2>
+
+<p class=MsoNormal>log4j-1.2.15.jar<span style='mso-tab-count:1'>   </span><span
+style='mso-tab-count:1'>                        </span>Apache Software License,
+Version 2.0<span style='mso-tab-count:1'>       </span><br>
+ag3.jar<span style='mso-tab-count:2'>                                        </span>BSD<br>
+commons-logging-1.1.1.jar<span style='mso-tab-count:1'>        </span>Apache
+Software License, Version 2.0<br>
+<span class=SpellE>examples.jar</span><span style='mso-tab-count:2'>                               </span>LGPL<br>
+<span class=SpellE>fmj-nojmf.jar</span><span style='mso-tab-count:1'>      </span><span
+style='mso-tab-count:1'>                        </span>LGPL<br>
+<span class=SpellE>jmf.jar</span><span style='mso-tab-count:2'>                                         </span>Sun
+license<br>
+<span class=SpellE>javax.servlet.jar</span><span style='mso-tab-count:2'>                          </span>Sun
+license<br>
+<span class=SpellE>jna.jar</span><span style='mso-tab-count:2'>                                         </span>LGPL<br>
+<span class=SpellE>lti-civil.jar</span><span style='mso-tab-count:2'>                                   </span>LGPL<br>
+xom-1.1.jar<span style='mso-tab-count:2'>                                 </span>LGPL<br>
+<span class=SpellE>xercesImpl.jar</span><span style='mso-tab-count:2'>                             </span>Apache
+Software License, Version 2.0<br>
+<span class=SpellE>swordcommon.jar</span><span style='mso-tab-count:1'>                      </span>Apache
+Software License, Version 2.0<br>
+<span class=SpellE>mets.jar</span><span style='mso-tab-count:2'>                                       </span>LGPL<br>
+<span class=SpellE>jena.jar</span><span style='mso-tab-count:1'>                </span><span
+style='mso-tab-count:1'>                        </span><span
+class=MsoHyperlink>http://jena.sourceforge.net/license.html</span><br>
+jakarta-oro-2.0.8.jar<span style='mso-tab-count:1'>                    </span>Apache
+Software License, Version 2.0<br>
+commons-codec-1.3.jar<span style='mso-tab-count:1'>              </span>Apache
+Software License, Version 2.0<br>
+commons-httpclient-3.0.1.jar<span style='mso-tab-count:1'>     </span>Apache
+Software License, Version 2.0<br>
+icu4j_3_4.jar<span style='mso-tab-count:2'>                              </span><span
+class=MsoHyperlink>http://source.icu-project.org/repos/icu/icu/<br>
+</span><span
+style='mso-spacerun:yes'>                                                  
+</span><span class=MsoHyperlink>trunk/license.html</span><br>
+<span class=SpellE>CrewCodecsLINEAR.jar</span><span style='mso-tab-count:1'>          </span>BSD<br>
+<span class=SpellE>CrewCodecsULAW.jar</span><span style='mso-tab-count:1'>             </span>BSD<br>
+<span class=SpellE>CrewMedia.jar</span><span style='mso-tab-count:2'>                           </span>BSD<br>
+<span class=SpellE>CrewCommons.jar</span><span style='mso-tab-count:1'>                     </span>BSD<br>
+CrewCodecsH261.jar<span style='mso-tab-count:1'>                </span>BSD<br>
+<span class=SpellE>CrewCodecsCommons.jar</span><span style='mso-tab-count:1'>         </span>BSD<br>
+<span class=SpellE>CrewCodecsColourspace.jar</span><span style='mso-tab-count:
+1'>      </span>BSD</p>
+
+</div>
+
+</body>
+
+</html>
