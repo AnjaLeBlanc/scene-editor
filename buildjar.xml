@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <project name="edance.makejar" default="makejar_edance" basedir=".">
+
+      <target name ="makejar_edance" description="Create a jar for the edance application">
+
+        <jar jarfile="edance.jar">
+        	<fileset dir="bin" includes="**/*.class **/*.gif **/*.jpg **/">
+        	</fileset>
+<!--        	<fileset dir="." includes="lib/* libwindows/* liblinux/* libmac/*">
+        	</fileset> -->
+        	<manifest>
+                <attribute name="Main-Class" value="edance.Edance"/>
+                <attribute name="Class-Path" value=". lib/log4j-1.2.15.jar lib/ag3.jar lib/commons-logging-1.1.1.jar lib/examples.jar lib/ffmpegjava.jar lib/fmj-nojmf.jar lib/jmf.jar lib/javax.servlet.jar lib/jna.jar lib/lti-civil.jar lib/xom-1.1.jar lib/xercesImpl.jar lib/swordcommon.jar lib/mets.jar lib/jena.jar lib/jakarta-oro-2.0.8.jar lib/commons-codec-1.3.jar lib/commons-httpclient-3.0.1.jar lib/icu4j_3_4.jar lib/CrewCodecsLINEAR.jar lib/CrewCodecsULAW.jar lib/CrewMedia.jar lib/CrewCommons.jar lib/CrewCodecsH261.jar lib/CrewCodecsCommons.jar lib/CrewCodecsColourspace.jar" />
+            </manifest>
+        </jar>
+      </target>
+</project>
