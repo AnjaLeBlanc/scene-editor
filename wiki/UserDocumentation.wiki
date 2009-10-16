@@ -5,6 +5,9 @@
 The e-Dance Scene Editor is a software tool which allows users to design a series of scenes using media inputs such as cameras (fire wire, or USB input), pervious recorded material, transmitted streams from around the world, and sound. The display to the audience will occur on a second attached screen or via an attached projector. It provides options for life manipulations, like moving the position of videos, or changing the transparency of them.
 The eDance Scene Editor is written in Java and provides libraries for Windows, Linux, and Mac but is so far tested only on Windows.
 
+http://scene-editor.googlecode.com/svn/wiki/WikiPageName.attach/SceneEditorUserDocumentation_files/image001.png
+
+
 = State of the Project=
 
 Main functionalities are implemented and tested. Secondary functionalities are designed (hooks provided) but not yet implemented. Major effort has to be put into net interactivity, exchange of scene layouts, following a life show… 
