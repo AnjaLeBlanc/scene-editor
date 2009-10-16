@@ -5,7 +5,7 @@
 The e-Dance Scene Editor is a software tool which allows users to design a series of scenes using media inputs such as cameras (fire wire, or USB input), pervious recorded material, transmitted streams from around the world, and sound. The display to the audience will occur on a second attached screen or via an attached projector. It provides options for life manipulations, like moving the position of videos, or changing the transparency of them.
 The eDance Scene Editor is written in Java and provides libraries for Windows, Linux, and Mac but is so far tested only on Windows.
 
-[http://scene-editor.googlecode.com/svn/wiki/WikiPageSceneEditor.attach/SceneEditorUserDocumentation_files/image002.png]
+[http://scene-editor.googlecode.com/svn/wiki/WikiPageSceneEditor.attach/SceneEditorUserDocumentation_files/image001.png]
 
 
 
@@ -25,14 +25,14 @@ The increase in memory is recommended since working with video in real-time is m
 
 = General Design =
 
-[http://scene-editor.googlecode.com/svn/wiki/WikiPageSceneEditor.attach/SceneEditorUserDocumentation_files/image004.png]
+[http://scene-editor.googlecode.com/svn/wiki/WikiPageSceneEditor.attach/SceneEditorUserDocumentation_files/image004.gif]
 
 The Scene Editor window is divided into four parts, the Toolbar for selecting functions, the Scene Design area in which the user can place their media objects, the Scenes Overview area in which the user has an overview about available scenes and can change the order in which they occur, and a sill empty space in which at a future time the timing of a show can be edited (using the idea of a video cutting area, with different lines for different locations and time bar).
 In running mode the current scene is also displayed on the second screne/projector. All interactions within the Scene Design area are then also applied to the live show.
 
 == Toolbar ==
 
-[http://scene-editor.googlecode.com/svn/wiki/WikiPageSceneEditor.attach/SceneEditorUserDocumentation_files/image006.png]
+[http://scene-editor.googlecode.com/svn/wiki/WikiPageSceneEditor.attach/SceneEditorUserDocumentation_files/image005.png]
 
 Buttons from left to right:
 _New Project_ (not working)
@@ -83,9 +83,9 @@ _Record_ – save all streams into working directory. If there are already recor
 == Scene Design ==
 In this area a scene gets created. Media objects are created by clicking on one of the icons (camera, tape, and microphone) and than placed on the design area by clicking with the left mouse button on the spot (where the top left corner is going to be). Objects can be selected by (left) clicking on them (use Shift key for selecting multiple objects), or selecting an area in which the object is part. To select all objects of a scene press Ctrl+a. Objects can be resized by selecting them and either pressing a number key, or pulling on a red corner of an object. Since audio objects are not visible during a show, they are not resizable. Selected objects are movable by dragging. 
 You have to attach a media stream to make the object sensible.
+[http://scene-editor.googlecode.com/svn/wiki/WikiPageSceneEditor.attach/SceneEditorUserDocumentation_files/image007.png]
 On a right click on a selected object a menu is shown (see image). There you can select functions to change the order of windows to bring them in front or behind others and also a menu option to attach a media. Depending on what object it is you get a selection of available audio devices (remote and local), video devices (remote or local). Please not that the name of remote sources can change during the lifetime. Local sources are called after the name of the device. If several devices have the same name they get an additional number. If a local camera gets physically removed and reconnected it is necessary to select the menu point ‘Remove Camera’ to remove the dead stream from the object before reattaching the media.
-In the same menu you can set the transparency level of videos. A window with a slider bar will appear. You can set any value between completely opaque to completely transparent. [http://scene-editor.googlecode.com/svn/wiki/WikiPageSceneEditor.attach/SceneEditorUserDocumentation_files/image008.png]
-
+In the same menu you can set the transparency level of videos. A window with a slider bar will appear. You can set any value between completely opaque to completely transparent. 
 
 == Scene Overview ==
 Here you can see all the scenes in the current project with an indication where the scene comes from (currently only one location). You can select the current scene by left clicking on a scene and you can change the order of scenes by drag and dropping them. On a right click on a scene you can select to change its name. A dialog box is displayed there you can input a text. The current scene is shown with a darker background.
