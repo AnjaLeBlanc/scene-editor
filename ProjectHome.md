@@ -1,0 +1,5 @@
+# Introduction #
+The Scene Editor is a software tool which allows users to design a series of scenes using media inputs such as cameras (fire wire, or USB input), pervious recorded material, transmitted streams from around the world, and sound. The display to the audience will occur on a second attached screen or via an attached projector. It provides options for life manipulations, like moving the position of videos, or changing the transparency of them.
+# e-Dance #
+The Scene Editor is one of the outcomes of the e-Dance project [e-Dance blog](http://projects.kmi.open.ac.uk/e-dance/).
+The e-Dance project was funded by the UK AHRC-JISC-EPSRC e-Science Initiative (the Arts and Humanities Research Council, the Joint Information Systems Committee, the Engineering and Physical Sciences Research Council).
